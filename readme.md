@@ -1,5 +1,8 @@
 # Synticore Website Compiler
 
+On Windows, double-click `gui.vbs` to run the GUI server and its supervisor without a console window. `gui.cmd` remains available for an interactive diagnostic launch.
+
+
 Synticore is a static-site build pipeline for HTML, CSS/SCSS, JavaScript, and assets.
 
 This repository contains the compiler itself, the browser GUI, bundled resources, project templates, and the documentation source.

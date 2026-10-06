@@ -15020,7 +15020,7 @@ function _spawnCommandRouted(command, args, logTag, options = {}) {
   } = options;
 
   return new Promise((resolve, reject) => {
-    const child = NODE_CHILD_PROCESS.spawn(command, args, {
+    const child = NODE_CHILD_PROCESS.spawn(command, args, {windowsHide: true,
       shell,
       stdio: ['ignore', 'pipe', 'pipe'],
       env,
